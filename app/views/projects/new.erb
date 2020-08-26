@@ -1,0 +1,13 @@
+<h1> Add a new project 👩‍💻 </h1>
+
+<%= form_for @project do |f| %>
+
+  <%= f.label :project_name %>
+  <%= f.text_field :name %> <br/>
+
+  <%= f.label :description %>
+  <%= f.text_field :description %><br/>
+
+  <%= f.submit "🧙‍♂️ Ready for some magic ?! 🧙‍♂️" %>
+
+<% end %>
